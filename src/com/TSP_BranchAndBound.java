@@ -3,7 +3,6 @@ package com;
 // Java program to solve TSP using B&B.
 
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Arrays;
 
 import static Utils.helper.*;
@@ -11,14 +10,19 @@ import static Utils.helper.*;
 /***
  solving the TSP using branch and bound .
  ***/
-public class TSPv2 {
-    //the graph is represented with the Adjacency matrix as a text file.
+public class TSP_BranchAndBound {
+    // the path to the data
     private String data_path;
+    //the no nodes witch is the noLines in the data text file
     private int N;//noNodes in the graph
-    private int[] final_path;
+    private int[] final_path;//stores the path of the salesman.
+    //keeps track of the already visited nodes in a particular path
     private boolean visited[];
+    //Stores the final minimum weight of shortest tour.
     private int final_weight_res;
+    //the graph is represented with the Adjacency matrix as a text file.
     private int adj[][];
+
 
     private void TSPRec(int adj[][], int curr_bound, int curr_weight,
                         int level, int curr_path[]) {
@@ -66,7 +70,13 @@ public class TSPv2 {
     }
 
 
-    private int[] TSP() {
+    //the constructor
+    public TSP_BranchAndBound(int N, int adj[][]) {
+        this.N = N;//noNodes
+        this.final_path = new int[N + 1];
+        this.visited = new boolean[N];
+        this.final_weight_res = Integer.MAX_VALUE;
+        this.adj = adj;
         int curr_path[] = new int[N + 1];
         int curr_bound = initial_bound(adj, N);
         Arrays.fill(curr_path, -1);
@@ -76,15 +86,6 @@ public class TSPv2 {
         curr_path[0] = 0;
         //make a rec call to TSPRec with the level 1.
         TSPRec(adj, curr_bound, 0, 1, curr_path);
-        return final_path;
-    }
-
-    public TSPv2(int N, int adj[][]) {
-        this.N = N;
-        this.final_path = new int[N + 1];
-        this.visited = new boolean[N];
-        this.final_weight_res = Integer.MAX_VALUE;
-        this.adj = adj;
     }
 
     public int getFinal_weight_res() {
@@ -107,11 +108,9 @@ public class TSPv2 {
         } catch (FileNotFoundException e) {
             print_exception(e);
         }
-        TSPv2 t = new TSPv2(5, adj);
-
         //calculating..
         System.out.println("[*]Calculating ...");
-        t.TSP();
+        TSP_BranchAndBound t = new TSP_BranchAndBound(5, adj);
         System.out.println("     Done.");
         //Print the results :
         System.out.println("[*]Results :");
