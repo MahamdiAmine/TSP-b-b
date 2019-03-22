@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85fdb37a-dbdf-4f21-9e0c-4cecc3fb2126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/com/TSPv2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/data3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/data4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Traveling Salesman Problem using Branch And Bound.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Traveling Salesman Problem using Branch And Bound.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/com/TSPv2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/com/TSPv2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TSPv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TSPv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/Utils/helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/Utils/helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/com/TSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/com/TSPv2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/data/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Traveling Salesman Problem using Branch And Bound/com/TSPv2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Traveling Salesman Problem using Branch And Bound/test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/TSP_BranchAndBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TSP_BranchAndBound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/TSPBranchAndBoundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TSPBranchAndBoundTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test4.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/TSPv2.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/TSP_BranchAndBound.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+            <state relative-caret-position="20">
+              <caret line="104" column="45" selection-start-line="104" selection-start-column="45" selection-end-line="104" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3220#3221#0" expanded="true" />
@@ -39,30 +49,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/TSP.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/TSPBranchAndBoundTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="80" column="71" selection-start-line="80" selection-start-column="67" selection-end-line="80" selection-end-column="71" />
+            <state relative-caret-position="158">
+              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1025#1026#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/TSPv2Test.java">
+        <entry file="file://$PROJECT_DIR$/src/data/data3.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/data4.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -79,8 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Utils/helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="179">
+              <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/data01230-66.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -102,6 +123,7 @@
       <find>pri</find>
       <find>kk</find>
       <find>visi</find>
+      <find>mm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,8 +138,6 @@
         <option value="$PROJECT_DIR$/src/ReadFromFile.java" />
         <option value="$PROJECT_DIR$/src/Utils/ReadFromFile.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
-        <option value="$PROJECT_DIR$/src/Utils/helper.java" />
-        <option value="$PROJECT_DIR$/src/data/data.txt" />
         <option value="$PROJECT_DIR$/src/test/TSP_test.java" />
         <option value="$PROJECT_DIR$/src/com/tsp.java" />
         <option value="$PROJECT_DIR$/src/com/TSPTest.java" />
@@ -132,6 +152,13 @@
         <option value="$PROJECT_DIR$/src/test/com/TSPv2Test.java" />
         <option value="$PROJECT_DIR$/src/com/TSP.java" />
         <option value="$PROJECT_DIR$/src/com/TSPv2.java" />
+        <option value="$PROJECT_DIR$/src/test/com/TSPBranchAndBoundTest.java" />
+        <option value="$PROJECT_DIR$/src/data/data01230-66.txt" />
+        <option value="$PROJECT_DIR$/src/Utils/helper.java" />
+        <option value="$PROJECT_DIR$/src/data/data.txt" />
+        <option value="$PROJECT_DIR$/src/data/data4.txt" />
+        <option value="$PROJECT_DIR$/src/com/TSP_BranchAndBound.java" />
+        <option value="$PROJECT_DIR$/src/tests/TSPBranchAndBoundTest.java" />
       </list>
     </option>
   </component>
@@ -158,31 +185,25 @@
             <path>
               <item name="Traveling Salesman Problem using Branch And Bound" type="b2602c69:ProjectViewProjectNode" />
               <item name="Traveling Salesman Problem using Branch And Bound" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Traveling Salesman Problem using Branch And Bound" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Traveling Salesman Problem using Branch And Bound" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Traveling Salesman Problem using Branch And Bound" type="b2602c69:ProjectViewProjectNode" />
               <item name="Traveling Salesman Problem using Branch And Bound" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Traveling Salesman Problem using Branch And Bound" type="b2602c69:ProjectViewProjectNode" />
               <item name="Traveling Salesman Problem using Branch And Bound" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Traveling Salesman Problem using Branch And Bound" type="b2602c69:ProjectViewProjectNode" />
               <item name="Traveling Salesman Problem using Branch And Bound" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Traveling Salesman Problem using Branch And Bound" type="b2602c69:ProjectViewProjectNode" />
@@ -201,7 +222,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553223083128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553229307618" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -235,6 +256,7 @@
       <recent name="com" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data" />
       <recent name="$PROJECT_DIR$/src/libs" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -251,105 +273,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TSPv2">
-    <configuration name="TSP branch and bound " type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.TSP" />
+  <component name="RunManager" selected="JUnit.TSPBranchAndBoundTest">
+    <configuration name="tsp" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.TSP_BranchAndBound" />
       <module name="Traveling Salesman Problem using Branch And Bound" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TSPv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.TSPv2" />
+    <configuration name="TSPBranchAndBoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Traveling Salesman Problem using Branch And Bound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TSPv2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Traveling Salesman Problem using Branch And Bound" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.TSPv2Test" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TSPBranchAndBoundTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TSPv2Test.TSP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TSPBranchAndBoundTest.testGetFinal_weight_res (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Traveling Salesman Problem using Branch And Bound" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.TSPv2Test" />
-      <option name="METHOD_NAME" value="TSP" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TSPv2Test.TSPu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Traveling Salesman Problem using Branch And Bound" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.TSPv2Test" />
-      <option name="METHOD_NAME" value="TSPu" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TSPv2Test.testGetFinal_weight_res" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Traveling Salesman Problem using Branch And Bound" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.TSPv2Test" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TSPBranchAndBoundTest" />
       <option name="METHOD_NAME" value="testGetFinal_weight_res" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TSPBranchAndBoundTest.testGetFinal_weight_res" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Traveling Salesman Problem using Branch And Bound" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.TSPBranchAndBoundTest" />
+      <option name="METHOD_NAME" value="testGetFinal_weight_res" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TSP branch and bound " />
-      <item itemvalue="JUnit.TSPv2Test.testGetFinal_weight_res" />
-      <item itemvalue="JUnit.TSPv2Test" />
-      <item itemvalue="JUnit.TSPv2Test.TSP" />
-      <item itemvalue="JUnit.TSPv2Test.TSPu" />
-      <item itemvalue="Application.TSPv2" />
+      <item itemvalue="Application.tsp" />
+      <item itemvalue="JUnit.TSPBranchAndBoundTest.testGetFinal_weight_res" />
+      <item itemvalue="JUnit.TSPBranchAndBoundTest" />
+      <item itemvalue="JUnit.TSPBranchAndBoundTest.testGetFinal_weight_res (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TSPv2" />
-        <item itemvalue="JUnit.TSPv2Test.testGetFinal_weight_res" />
-        <item itemvalue="JUnit.TSPv2Test" />
-        <item itemvalue="JUnit.TSPv2Test.TSPu" />
-        <item itemvalue="JUnit.TSPv2Test.TSP" />
+        <item itemvalue="JUnit.TSPBranchAndBoundTest" />
+        <item itemvalue="JUnit.TSPBranchAndBoundTest.testGetFinal_weight_res (1)" />
+        <item itemvalue="JUnit.TSPBranchAndBoundTest.testGetFinal_weight_res" />
       </list>
     </recent_temporary>
   </component>
@@ -364,44 +354,44 @@
       <option name="presentableId" value="Default" />
       <updated>1553201402044</updated>
       <workItem from="1553201404896" duration="16778000" />
-      <workItem from="1553218325828" duration="5517000" />
+      <workItem from="1553218325828" duration="10973000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 34m 54s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest - 2019.03.22 at 05h 04m 16s.xml">
+      <configuration name="TSPBranchAndBoundTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 40m 00s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest - 2019.03.22 at 05h 04m 45s.xml">
+      <configuration name="TSPBranchAndBoundTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 40m 32s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest - 2019.03.22 at 05h 05m 13s.xml">
+      <configuration name="TSPBranchAndBoundTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 40m 55s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest - 2019.03.22 at 05h 06m 50s.xml">
+      <configuration name="TSPBranchAndBoundTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 41m 25s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest - 2019.03.22 at 05h 08m 26s.xml">
+      <configuration name="TSPBranchAndBoundTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 46m 06s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest_testGetFinal_weight_res_(1) - 2019.03.22 at 05h 10m 12s.xml">
+      <configuration name="TSPBranchAndBoundTest.testGetFinal_weight_res (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 46m 41s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest_testGetFinal_weight_res_(1) - 2019.03.22 at 05h 11m 57s.xml">
+      <configuration name="TSPBranchAndBoundTest.testGetFinal_weight_res (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 47m 10s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest_testGetFinal_weight_res_(1) - 2019.03.22 at 05h 12m 17s.xml">
+      <configuration name="TSPBranchAndBoundTest.testGetFinal_weight_res (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 48m 29s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest_testGetFinal_weight_res_(1) - 2019.03.22 at 05h 14m 26s.xml">
+      <configuration name="TSPBranchAndBoundTest.testGetFinal_weight_res (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TSPv2Test_testGetFinal_weight_res - 2019.03.22 at 03h 48m 54s.xml">
-      <configuration name="TSPv2Test.testGetFinal_weight_res" configurationId="JUnit" />
+    <history-entry file="TSPBranchAndBoundTest - 2019.03.22 at 05h 25m 31s.xml">
+      <configuration name="TSPBranchAndBoundTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22295000" />
+    <option name="totallyTimeSpent" value="27751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1360" height="742" extended-state="6" />
@@ -412,7 +402,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25342464" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2526636" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -422,8 +412,8 @@
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.3306189" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -441,6 +431,41 @@
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25342464" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.3306189" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32901135" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32952815" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Commander" order="9" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -475,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils/helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/test/test/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -503,25 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/TSPv2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/TSP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -534,16 +533,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TSPv2.java">
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/Scanner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+        <state relative-caret-position="109">
+          <caret line="862" selection-start-line="862" selection-end-line="862" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/data01230-66.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/data3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/data4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TSP_BranchAndBound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="104" column="45" selection-start-line="104" selection-start-column="45" selection-end-line="104" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3220#3221#0" expanded="true" />
             <element signature="e#3259#3260#0" expanded="true" />
             <element signature="e#3295#3296#0" expanded="true" />
             <element signature="e#3328#3329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/TSPBranchAndBoundTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

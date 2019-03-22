@@ -13,8 +13,9 @@ import java.util.Scanner;
  ***/
 public class helper {
     //read 2D matrix from text file , the values are separated by space .
-    public static int[][] readFromFile(String data_path, int index) throws FileNotFoundException {
+    public static int[][] readFromFile(String data_path) throws Exception {
         Scanner sc;
+        int index = get_noLines(data_path);
         sc = new Scanner(new BufferedReader(new FileReader(data_path)));
         int[][] matrix = new int[index][index];
         int noLines = 0;
@@ -28,7 +29,31 @@ public class helper {
             }
         }
         assertEquals(index, noLines);
+        if (!isSymmetric(matrix)) throw new Exception("the matrix is not symmetric !");
         return matrix;
+    }
+
+    public static boolean isSymmetric(int matrix[][]) {
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        boolean symmetric = true;
+        if (rows != cols) {
+            symmetric = false;
+        } else {
+
+            for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < cols; j++) {
+                    if (matrix[i][j] != matrix[j][i]) {
+                        symmetric = false;
+                        System.out.println(matrix[i][j]);
+                        System.out.println(matrix[j][i]);
+                        System.out.println();
+                        break;
+                    }
+                }
+            }
+        }
+        return symmetric;
     }
 
     //assertEquals Function of integers,with 88 as the exitcode.

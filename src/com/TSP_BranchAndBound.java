@@ -3,6 +3,7 @@ package com;
 // Java program to solve TSP using B&B.
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Arrays;
 
 import static Utils.helper.*;
@@ -71,8 +72,8 @@ public class TSP_BranchAndBound {
 
 
     //the constructor
-    public TSP_BranchAndBound(int N, int adj[][]) {
-        this.N = N;//noNodes
+    public TSP_BranchAndBound( int adj[][]) {
+        this.N = adj.length;//noNodes
         this.final_path = new int[N + 1];
         this.visited = new boolean[N];
         this.final_weight_res = Integer.MAX_VALUE;
@@ -98,19 +99,21 @@ public class TSP_BranchAndBound {
 
     public static void main(String[] args) {
         //Read the Adjacency matrix for the given graph
-        int adj[][] = new int[0][0];
+        int adj_matrix[][] = new int[0][0];
         String data_path = "./src/data/data.txt";
+        String data_path2 = "./src/data/data01230-66.txt";
+        String data_path3 = "./src/data/data4.txt";
         try {
             //read the matrix:
             System.out.println("The Matrix :");
-            adj = readFromFile(data_path, 5);
-            System.out.println(Arrays.deepToString(adj));
-        } catch (FileNotFoundException e) {
+            adj_matrix = readFromFile(data_path3);
+            System.out.println(Arrays.deepToString(adj_matrix));
+        } catch (Exception e) {
             print_exception(e);
         }
         //calculating..
         System.out.println("[*]Calculating ...");
-        TSP_BranchAndBound t = new TSP_BranchAndBound(5, adj);
+        TSP_BranchAndBound t = new TSP_BranchAndBound(adj_matrix);
         System.out.println("     Done.");
         //Print the results :
         System.out.println("[*]Results :");
