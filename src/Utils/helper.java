@@ -1,5 +1,9 @@
 package Utils;
 
+import tsp.TSPCoordinate;
+import tsp.TSPException;
+import tsp.TSPFileParser;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -13,11 +17,11 @@ import java.util.Scanner;
  ***/
 public class helper {
     //read 2D matrix from text file , the values are separated by space .
-    public static int[][] readFromFile(String data_path) throws Exception {
+    public static double[][] readFromFile(String data_path) throws Exception {
         Scanner sc;
         int index = get_noLines(data_path);
         sc = new Scanner(new BufferedReader(new FileReader(data_path)));
-        int[][] matrix = new int[index][index];
+        double[][] matrix = new double[index][index];
         int noLines = 0;
         while (sc.hasNextLine()) {
             for (int i = 0; i < matrix.length; i++) {
@@ -33,7 +37,7 @@ public class helper {
         return matrix;
     }
 
-    public static boolean isSymmetric(int matrix[][]) {
+    public static boolean isSymmetric(double matrix[][]) {
         int rows = matrix.length;
         int cols = matrix[0].length;
         boolean symmetric = true;
@@ -60,7 +64,6 @@ public class helper {
     private static void assertEquals(int index, int noLines) {
         if (index != noLines) {
             System.out.println("You have a problem in your data !!");
-            System.exit(89);
         }
     }
 
@@ -78,8 +81,8 @@ public class helper {
     }
 
     // Function to find the minimum edge cost having an end at the vertex i
-    public static int firstMin(int adj[][], int i, int N) {
-        int min = Integer.MAX_VALUE;
+    public static double firstMin(double adj[][], int i, int N) {
+        double min = Double.MAX_VALUE;
         for (int k = 0; k < N; k++)
             if (adj[i][k] < min && i != k)
                 min = adj[i][k];
@@ -87,8 +90,8 @@ public class helper {
     }
 
     // Function to find the second minimum edge cost having an end at the vertex i
-    public static int secondMin(int adj[][], int i, int N) {
-        int first = Integer.MAX_VALUE, second = Integer.MAX_VALUE;
+    public static double secondMin(double adj[][], int i, int N) {
+        double first = Double.MAX_VALUE, second = Double.MAX_VALUE;
         for (int j = 0; j < N; j++) {
             if (i == j) continue;
             if (adj[i][j] <= first) {
@@ -101,11 +104,10 @@ public class helper {
     }
 
     //Function to compute initial bound
-    public static int initial_bound(int adj[][], int N) {
-        int curr_bound = 0;
+    public static double initial_bound(double adj[][], int N) {
+        double curr_bound = 0.0;
         for (int i = 0; i < N; i++)
-            curr_bound += (firstMin(adj, i, N) +
-                    secondMin(adj, i, N));
+            curr_bound += (firstMin(adj, i, N) + secondMin(adj, i, N));
 
         // Rounding off the lower bound to an integer
         curr_bound = (curr_bound == 1) ? curr_bound / 2 + 1 :
@@ -125,4 +127,27 @@ public class helper {
         System.out.println("Please  fix the exception and try again !");
         System.exit(88);
     }
+
+    public static double[][] generateAdjMatrix(String fileName) throws TSPException {
+        TSPFileParser t = new TSPFileParser(fileName);
+        TSPCoordinate[] coordinates = t.parseFile();
+        if (t.getFileType().equals("NOT DEFINED")) return null;
+        int dim = t.getDimension();
+        double table[][] = new double[dim][dim];
+        for (int i = 0; i < dim; i++) {
+            for (int j = 0; j < dim; j++) {
+                table[i][j] = calculateDistance(coordinates[i], coordinates[j]);
+                //System.out.print(table[i][j]+"   ");
+            }
+            //System.out.println('\n');
+        }
+        return table;
+    }
+
+    public static double calculateDistance(TSPCoordinate t1, TSPCoordinate t2) {
+        double x1MINUSx2 = Math.pow((t1.getX() - t2.getX()), 2);
+        double y1MINUSy2 = Math.pow((t1.getY() - t2.getY()), 2);
+        return Math.abs(Math.sqrt(x1MINUSx2 + y1MINUSy2));
+    }
+
 }
