@@ -8,7 +8,7 @@ class main {
     public static void main(String[] args) {
         //Read the Adjacency matrix for the given graph
         double adj_matrix[][];
-        String data_path1 = "./src/data/wi29.tsp";
+        String data_path1 = "./src/data/ex.tsp";
         String data_path2 = "./src/data/berlin52.tsp";
         String data_path3 = "./src/data/data4.txt";
         try {

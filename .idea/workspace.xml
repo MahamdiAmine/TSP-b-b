@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="85fdb37a-dbdf-4f21-9e0c-4cecc3fb2126" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/META-INF/Traveling Salesman Problem using Branch And Bound.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/Utils/helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Traveling Salesman Problem using Branch And Bound/Utils/helper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Traveling Salesman Problem using Branch And Bound/META-INF/Traveling Salesman Problem using Branch And Bound.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Traveling Salesman Problem using Branch And Bound/test/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/TSP_BranchAndBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/TSP_BranchAndBound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/data3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ex.tsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ex.tsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TSPBranchAndBoundTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TSPBranchAndBoundTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="38">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,13 +71,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/data/ex.tsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="80">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tsp/TSPFileParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -98,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/data/berlin52.tsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="80">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -111,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/data/wi29.tsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -178,10 +171,10 @@
         <option value="$PROJECT_DIR$/src/data/burma14.tsp" />
         <option value="$PROJECT_DIR$/src/tests/TSPBranchAndBoundTest.java" />
         <option value="$PROJECT_DIR$/src/com/TSP_BranchAndBound.java" />
-        <option value="$PROJECT_DIR$/src/data/ex.tsp" />
         <option value="$PROJECT_DIR$/src/Utils/helper.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/tsp/TSPFileParser.java" />
+        <option value="$PROJECT_DIR$/src/data/ex.tsp" />
+        <option value="$PROJECT_DIR$/src/main.java" />
       </list>
     </option>
   </component>
@@ -220,12 +213,6 @@
             </path>
             <path>
               <item name="Traveling Salesman Problem using Branch And Bound" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Traveling Salesman Problem using Branch And Bound" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Traveling Salesman Problem using Branch And Bound" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -242,7 +229,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560259189302" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560261629715" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -323,7 +310,7 @@
       <workItem from="1553218325828" duration="12614000" />
       <workItem from="1560070007909" duration="19000" />
       <workItem from="1560187827832" duration="9334000" />
-      <workItem from="1560252324118" duration="3459000" />
+      <workItem from="1560252324118" duration="3901000" />
     </task>
     <servers />
   </component>
@@ -360,7 +347,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42204000" />
+    <option name="totallyTimeSpent" value="42646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1360" height="742" extended-state="6" />
@@ -552,34 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/ex.tsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/wi29.tsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/berlin52.tsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -592,6 +555,30 @@
             <element signature="e#3114#3115#0" expanded="true" />
             <element signature="e#3146#3147#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/ex.tsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/berlin52.tsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
