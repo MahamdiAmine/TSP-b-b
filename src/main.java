@@ -1,5 +1,6 @@
 import com.TSP_BranchAndBound;
 
+import java.lang.String;
 import java.util.Arrays;
 
 import static Utils.helper.*;
@@ -13,8 +14,8 @@ class main {
         String data_path3 = "./src/data/data4.txt";
         try {
             //read the matrix:
-            adj_matrix = generateAdjMatrix(data_path1);
-            //adj_matrix = readFromFile(data_path3);
+//            adj_matrix = generateAdjMatrix(data_path1);
+            adj_matrix = readFromFile(data_path3);
             if (adj_matrix != null) {
                 System.out.println("The Matrix :");
                 System.out.println(Arrays.deepToString(adj_matrix));
